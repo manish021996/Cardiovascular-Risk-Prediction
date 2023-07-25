@@ -47,4 +47,26 @@ As a result, it is critical that we accurately predict the risk of heart disease
   
 ### ML Models:
 
+![Screenshot 2023-07-25 125108](https://github.com/manish021996/Cardiovascular-Risk-Prediction/assets/120492463/95ef8ba5-c3f1-41b8-9729-a257387152e2)
+
+* We employed seven different models to predict Ten Year CHD:
+
+ 1. Logistic Regression
+ 2. Decision Tree with GridSearchCV
+ 3. Random Forest with GridSearchCV
+ 4. XGBOOST
+ 5. KNearestNeighbors
+ 6. Naive Bayes with GridSearchCV
+ 7. SVM with GridSearchCV
+   
+* Among these models Decision Tree, Random Forest with GridSearchCV, XGBOOST, and Support Vector Machine with GridSearchCV exhibited the best performance, achieving high Recall Scores in predicting the Ten Year CHD.
+
+* Recall scores on the test dataset:
+
+ * Decision Tree: 81%
+ * Random Forest: 100%
+ * XGBOOST: 81%
+ * SVM: 79%
+* Important features : Age, heart_rate, total_cholesterol, Cigs_per_day, education
+
 
